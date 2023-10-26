@@ -5,7 +5,7 @@
 	position: relative;
 
 	.feature-icon {
-		color: $blue;
+		color: #616A5E;
 		font-size: 55px;
 		line-height: 1;
 		margin-bottom: 35px;
@@ -15,7 +15,7 @@
 		width: 70px;
 		height: 70px;
 		line-height: 70px;
-		@include rounded(50%);
+		
 		margin-bottom: 40px;
 		text-align: center;
 	}
@@ -55,7 +55,7 @@
 					content: "\f00c";
 					font-size: 14px;
 					line-height: 26px;
-					color: $blue;
+					color: #616A5E;
 				}
 			}
 		}
@@ -99,16 +99,13 @@
 		padding: 40px;
 		text-align: center;
 
-		&:hover {
-			@include prefix(box-shadow, 0 10px 40px 0 rgba(32, 62, 84, 0.08), moz webkit);
-			@include rounded(4px);
-		}
+		
 
 		.feature-img {
 			width: 80px;
 			height: 80px;
 			line-height: 80px;
-			@include rounded(50%);
+			
 			margin: 0 auto 33px auto;
 			text-align: center;
 			background: #eff8ff;
@@ -160,10 +157,7 @@
 	}
 }
 
-.img-shadow {
-	@include prefix(box-shadow, 0 10px 25px 0 rgba(32, 62, 84, 0.2), moz webkit);
-	@include rounded(4px);
-}
+
 
 .hr-bar {
 	border-top-color: #e0e0e0;
