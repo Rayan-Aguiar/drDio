@@ -167,14 +167,18 @@
 }
 
 
-.svg{
-  fill: #616A5E;
-}
-svg.active {
-  fill: white; 
+#courses-cards{
+  width: 100%;
 }
 
+.cards{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+}
 
-#teste{
-  fill: red !important;
+.courses-content{ 
+ margin-top:auto ;
 }
