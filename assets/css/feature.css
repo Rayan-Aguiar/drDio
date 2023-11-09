@@ -186,3 +186,25 @@
 .img-proce{
   border-radius: 8px;
 }
+
+.tab-x{
+  overflow-x: scroll;
+}
+
+.tab-x::-webkit-scrollbar{
+  height: 4px
+}
+
+.tab-x::-webkit-scrollbar-thumb{
+  background-color: #616A5E;
+  border-radius: 6px;
+}
+
+.tab-x::-ms-scrollbar{
+  height: 12px
+}
+
+.tab-x::-ms-thumb{
+  background-color: #616A5E;
+  border-radius: 6px;
+}

@@ -670,7 +670,6 @@
         };
 
         touchstart = function (e) {
-          console.log(e);
           mousedown({ preventDefault: e.preventDefault, clientX: e.originalEvent.changedTouches[0].pageX });
         };
         touchmove = function (e) {
